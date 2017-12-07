@@ -1,6 +1,6 @@
 body {
     background-image: url("img/back.jpg");
-    background-size: cover;
+    background-size: 110%;
     font-family: 'Spectral SC', serif;
 }
 
@@ -58,10 +58,6 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
-    
-    body {
-    background-size: 100% 100%;
-    }
 
     .buttons {
         text-align: center;
