@@ -1,7 +1,6 @@
 body {
     background-image: url("img/back.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     font-family: 'Spectral SC', serif;
 }
 
@@ -30,6 +29,10 @@ img {
     border-radius: 20px;
 }
 
+#next-quote img {
+    padding: 0 25px;
+}
+
 
 #quote {
     text-align: center;
@@ -52,4 +55,19 @@ footer {
 footer p {
     text-align: center;
     font-size: 0.8em;
+}
+
+@media screen and (max-width: 768px) {
+    
+    body {
+    background-size: 100% 100%;
+    }
+
+    .buttons {
+        text-align: center;
+    }
+
+    img {
+        float: none;
+    }
 }
