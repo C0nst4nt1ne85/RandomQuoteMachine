@@ -1,7 +1,6 @@
 body {
     background-image: url("img/back.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     font-family: 'Spectral SC', serif;
 }
 
@@ -31,7 +30,7 @@ img {
 }
 
 #next-quote img {
-    padding: 0 25px;
+    padding: 0 50px;
 }
 
 
@@ -59,7 +58,7 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
-
+    
     .buttons {
         text-align: center;
     }
