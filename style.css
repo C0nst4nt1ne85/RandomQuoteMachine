@@ -30,7 +30,7 @@ img {
 }
 
 #next-quote img {
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 
@@ -65,5 +65,6 @@ footer p {
 
     img {
         float: none;
+        margin-left: 0px;
     }
 }
