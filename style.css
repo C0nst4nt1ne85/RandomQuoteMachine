@@ -1,4 +1,54 @@
 body {
-    max-width: 100%;
     background-image: url("img/back.jpg");
+    background-size: cover;
+    font-family: 'Spectral SC', serif;
+}
+
+.frame,
+img {
+    background-color: #FFFEEE;
+    -webkit-box-shadow: 6px 10px 23px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 10px 23px -1px rgba(0,0,0,0.75);
+    box-shadow: 6px 10px 23px -1px rgba(0,0,0,0.75);
+}
+
+.frame,
+.buttons {
+    max-width: 60%;
+    margin: 20% auto auto auto;
+}
+
+.buttons {
+    margin: 0 auto;
+}
+
+img {
+    max-height: 50px;
+    float: right;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+
+
+#quote {
+    text-align: center;
+    padding: 5% 5% 0 5%;
+    font-size: 22px;
+}
+
+#author {
+    text-align: right;
+    padding: 0 5% 5% 5%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    color: #FFFEEE;
+    width: 98%;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.8em;
 }

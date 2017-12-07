@@ -5,20 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>"Quote" me up!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
 </head>
 <body>
-    <h1>"Quote me up!"</h1>
-    <p>Sometimes you just need one quote.</p>
-    <main>
-        <div class="bubble"></div>
-        <button>Quote me up</button>
-        <button id="twitter"></button>
-    </main>
+    
+    <div class="frame">
+        <div class="quote-box">
+            <p id="quote">Quotation, n: The act of repeating erroneously the words of another.</p>
+            <span><p id="author">- Ambrose Bierce</p></span>
+        </div>
+    </div>
+    <div class="buttons">
+        <a href="#" class="button" id="twitter" title="Tweet this quote"><img src="/img/tw.png" alt="Next Quote">
+        </a></a>
+        <a href="#" class="button" id="next-quote" title="Next Quote"><img src="/img/quote.png" alt="Next Quote"></a>
+    </div>
     
     <footer>
-        
+        <p>Designed and coded by<br> Constantine Melios</p>
     </footer>
 
 </body>
