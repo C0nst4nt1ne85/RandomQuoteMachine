@@ -20,17 +20,27 @@ img {
 
 .buttons {
     margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
 }
 
 img {
     max-height: 50px;
-    float: right;
     margin-left: 15px;
     border-radius: 20px;
+
 }
 
 #next-quote img {
-    padding: 0 10px;
+    padding: 0 20px;
+}
+
+#next-quote img:hover {
+    background-color: #d3e8c0;
+}
+
+#twitter img:hover {
+    background-color: #00aced;
 }
 
 
@@ -46,8 +56,7 @@ img {
 }
 
 footer {
-    position: absolute;
-    bottom: 0px;
+    position: relative;
     color: #FFFEEE;
     width: 98%;
 }
@@ -58,13 +67,11 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
-    
-    .buttons {
-        text-align: center;
+    .body {
+        background-repeat: no-repeat;
     }
 
-    img {
-        float: none;
-        margin-left: 0px;
+    .buttons {
+        text-align: center;
+        justify-content: center;
     }
-}
