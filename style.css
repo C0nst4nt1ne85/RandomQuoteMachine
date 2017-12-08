@@ -64,12 +64,17 @@ footer {
 footer p {
     text-align: center;
     font-size: 0.8em;
+    padding-top: 150px;
 }
 
 @media screen and (max-width: 768px) {
     .body {
         background-repeat: no-repeat;
     }
+
+    #author {
+    text-align: center;
+}
 
     .buttons {
         text-align: center;

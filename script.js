@@ -4,7 +4,7 @@ function nextQuote(q) {
         url: "https://random-quote-generator.herokuapp.com/api/quotes/random"})
         .done(function (data) {
             $("#quote").html(data.quote);
-            $("#author").html(data.author);
+            $("#author").html("-" + data.author);
         });
 };
 
